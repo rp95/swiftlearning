@@ -18,8 +18,8 @@ class ViewController: UIViewController {
         
         tapCount = tapCount + 1
         
-        if tapCount >= 10 {
-            theLabel.text = "You pushed 10 times."
+        if tapCount >= 20 {
+            theLabel.text = "You pushed 20 times."
         }
         
     }
